@@ -1,0 +1,10 @@
+alias ls='ls -G' #for color
+alias ll='ls -alh'
+alias grep='grep --color'
+alias rm='rm -i'
+alias mkdir='mkdir -p'
+alias cp='cp -R'
+alias myip='echo $MY_IP'
+
+#alias mysqlstart='sudo mysqld_safe &'
+#alias mysqlstop='mysqladmin -u root -p shutdown'
