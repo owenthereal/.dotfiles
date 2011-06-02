@@ -11,13 +11,12 @@ export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 export CATALINA_HOME="/opt/local/share/java/apache-tomcat"
 export CATALINA_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 
-#export PAX_CONSTRUCT_HOME="/opt/local/share/java/pax-construct"
 export GROOVY_HOME="/opt/local/share/java/groovy"
 
 #export MYSQL_HOME="/usr/local/mysql"
 export POSTGRESQL_HOME="/opt/local/lib/postgresql90"
 
-export P4CONFIG="/Users/Owen/.p4settings"
+export NODE_PATH="/usr/local/lib/node_modules"
 
 export PATH=$POSTGRESQL_HOME/bin:$GROOVY_HOME/bin:$CATALINA_HOME/bin:$M2_HOME/bin:$M3_HOME/bin:$ANT_HOME/bin:$JAVA_HOME/bin:$PATH
 
