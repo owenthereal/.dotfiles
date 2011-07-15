@@ -20,8 +20,7 @@ export NODE_PATH="/usr/local/lib/node_modules"
 
 export PATH=$POSTGRESQL_HOME/bin:$GROOVY_HOME/bin:$CATALINA_HOME/bin:$M2_HOME/bin:$M3_HOME/bin:$ANT_HOME/bin:$JAVA_HOME/bin:$PATH
 
-# Loading RVM
-[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+export EDITOR=mvim
 
 # MacPorts Installer addition on 2009-09-05_at_22:58:41: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
@@ -35,3 +34,8 @@ export MANPATH=/opt/local/share/man:$MANPATH
 if [ -f /opt/local/etc/bash_completion ]; then
   . /opt/local/etc/bash_completion
 fi
+
+# Loading RVM
+[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
+
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
