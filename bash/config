@@ -1,3 +1,4 @@
-export PS1="\[\e[0;36m\]\u@\h:\[\e[32m\] \w\[\e[0;0m\]$ "
+# export PS1="\[\e[0;36m\]\u@\h:\[\e[32m\] \w\[\e[0;0m\]$ "
+export PS1="\[\033[01;34m\]\$(~/.rvm/bin/rvm-prompt) \[\033[01;32m\]\w\[\033[00;33m\]\$(__git_ps1 \" (%s)\") \[\033[01;36m\]\$\[\033[00m\] "
 export LANG=en_US.UTF-8
 export MY_IP=$(/sbin/ifconfig en0 | awk '/inet / { print $2 } ')
