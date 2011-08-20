@@ -16,9 +16,11 @@ export JAVA_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 #export MYSQL_HOME="/usr/local/mysql"
 # export POSTGRESQL_HOME="/opt/local/lib/postgresql90"
 
+export PYTHON_HOME="/usr/local/share/python"
+
 export NODE_PATH="/usr/local/lib/node_modules"
 
-export PATH=$JAVA_HOME/bin:/usr/local/bin:$PATH
+export PATH=$PYTHON_HOME:$JAVA_HOME/bin:/usr/local/bin:$PATH
 
 export EDITOR=mvim
 
