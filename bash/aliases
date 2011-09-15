@@ -7,7 +7,6 @@ alias cp='cp -R'
 alias myip='echo $MY_IP'
 
 alias vi='mvim -v'
-alias vim='mvim -v'
 
 #alias mysqlstart='sudo mysqld_safe &'
 #alias mysqlstop='mysqladmin -u root -p shutdown'
