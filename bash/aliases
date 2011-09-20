@@ -8,5 +8,8 @@ alias myip='echo $MY_IP'
 
 alias vi='mvim -v'
 
+alias brake='bundle exec rake'
+alias bexec='bundle exec'
+
 #alias mysqlstart='sudo mysqld_safe &'
 #alias mysqlstop='mysqladmin -u root -p shutdown'
