@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 case "$rvm_ruby_string" in
-  *ree*|*ruby-1.9.2*)
+  *ree*|*ruby-1.9.2*|*ruby-1.9.3*)
     export RUBY_HEAP_MIN_SLOTS=1000000
     export RUBY_HEAP_SLOTS_INCREMENT=1000000
     export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
