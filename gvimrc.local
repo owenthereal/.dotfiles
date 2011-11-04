@@ -1,5 +1,3 @@
 syntax enable
 set background=dark
 colorscheme solarized
-
-map <Leader>f :NERDTreeFind<CR>

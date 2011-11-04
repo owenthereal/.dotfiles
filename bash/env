@@ -20,7 +20,7 @@ export PYTHON_HOME="/usr/local/share/python"
 
 export NODE_PATH="/usr/local/lib/node_modules"
 
-export PATH=$PYTHON_HOME:$JAVA_HOME/bin:/usr/local/bin:$PATH
+export PATH=$PYTHON_HOME:$JAVA_HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
 
 export EDITOR=mvim
 
