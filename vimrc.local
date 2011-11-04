@@ -2,4 +2,7 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+set cursorline
+
 map <Leader>f :NERDTreeFind<CR>
+map <Leader>a :Ack<space>
