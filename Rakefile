@@ -29,3 +29,5 @@ task :setup_rvm do
   destination_hooks_file = File.join(ENV['HOME'], '.rvm', 'hooks', 'after_use_hooks')
   sym_link after_use_hooks_file, destination_hooks_file
 end
+
+task :default => :install

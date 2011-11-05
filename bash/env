@@ -19,10 +19,11 @@ export JAVA_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 export PYTHON_HOME="/usr/local/share/python"
 
 export NODE_PATH="/usr/local/lib/node_modules"
+export GOROOT="/usr/local/Cellar/go/r60.1"
 
 export PATH=$PYTHON_HOME:$JAVA_HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
 
-export EDITOR=mvim
+export EDITOR=vi
 
 # Loading RVM
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
