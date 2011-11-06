@@ -1,42 +1,44 @@
 [user]
-	name = Jingwen Owen Ou
-	email = jingweno@gmail.com
+  name = Jingwen Owen Ou
+  email = jingweno@gmail.com
 [alias]
-	st = status
-	co = checkout
-	cm = commit
-	pom = push origin master
-	br = branch
+  st = status
+  co = checkout
+  cm = commit
+  pom = push origin master
+  br = branch
 [color]
-	diff = auto
-	status = auto
-	branch = auto
-	ui = true
-	interactive = auto
-	pager = true
+  diff = auto
+  status = auto
+  branch = auto
+  ui = true
+  interactive = auto
+  pager = true
 [color "branch"]
-        current = yellow reverse
-        local = yellow
-        remote = green
+  current = yellow reverse
+  local = yellow
+  remote = green
 [color "diff"]
-        meta = yellow bold
-        frag = magenta bold
-        old = red bold
-        new = green bold
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
 [color "status"]
-        added = yellow
-        changed = green
-        untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
 [core]
-        pager = less -FRSX
-        whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-	excludesfile = /Users/Owen/.gitignore
-	editor = vim
-	autocrlf = input
+  pager = less -FRSX
+  whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+  excludesfile = /Users/Owen/.gitignore
+  editor = vim
+  autocrlf = input
 [apply]
-	whitespace = nowarn
+  whitespace = nowarn
 [github]
-	user = Owen
-	token = 68f39e870e0d5e382184a2dc79e79612
+  user = Owen
+  token = 68f39e870e0d5e382184a2dc79e79612
 [heroku]
-	account = jingweno
+  account = jingweno
+[branch]
+	autosetuprebase = always
