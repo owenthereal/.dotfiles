@@ -19,7 +19,7 @@ export JAVA_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 export PYTHON_HOME="/usr/local/share/python"
 
 export NODE_PATH="/usr/local/lib/node_modules"
-export GOROOT="/usr/local/Cellar/go/r60.1"
+export GOROOT="/usr/local/Cellar/go/r60.3"
 
 export PATH=$GOROOT/bin:$PYTHON_HOME:$JAVA_HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
 
