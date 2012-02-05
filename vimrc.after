@@ -3,6 +3,7 @@ set background=dark
 colorscheme solarized
 
 set cursorline
+set tags+=gems.tags
 
 map <Leader>f :NERDTreeFind<CR>
 map <Leader>a :Ack<space>
