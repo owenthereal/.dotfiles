@@ -7,7 +7,6 @@ alias cp='cp -R'
 alias myip='echo $MY_IP'
 
 alias mvim='rvm system do /usr/local/bin/mvim $@'
-alias vi='mvim -v'
 
 alias brake='bundle exec rake'
 alias bexec='bundle exec'
