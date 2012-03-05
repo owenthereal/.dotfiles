@@ -7,6 +7,13 @@
   cm = commit
   pom = push origin master
   br = branch
+  ci = commit
+  rb = rebase
+  df = diff
+  lg = log -p
+  who = shortlog -s --
+  oneline = log --pretty='%Cblue%h%Creset - %an - %Cgreen%s%Creset'
+  hist = log --pretty=format:\"%h | %ad | %s %Cgreen[%an]%Creset%Cred%d%Creset\" --graph --date=short
 [color]
   diff = auto
   status = auto
