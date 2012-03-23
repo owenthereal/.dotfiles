@@ -29,7 +29,7 @@ export GOROOT="/usr/local/Cellar/go/r60.3"
 export OPSCODE_USER="jingweno"
 export OPSCODE_ORGNAME="partnerpedia"
 
-export PATH=$GOROOT/bin:$PYTHON_HOME:$JAVA_HOME/bin:$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
+export PATH=$GOROOT/bin:$PYTHON_HOME:$JAVA_HOME/bin:$HOME/.rvm/bin:$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
 
 export EDITOR=vi
 
